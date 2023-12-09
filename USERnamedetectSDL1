@@ -1,4 +1,6 @@
-
+while true do
+	wait(1)
+	
 local PlayerIconNameGUI = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -6,7 +8,6 @@ local ImageLabel = Instance.new("ImageLabel")
 local UICorner_2 = Instance.new("UICorner")
 local TextBox = Instance.new("TextLabel")
 
---Properties:
 
 PlayerIconNameGUI.Name = "Player Icon + Name GUI"
 PlayerIconNameGUI.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -15,7 +16,7 @@ PlayerIconNameGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 Frame.Parent = PlayerIconNameGUI
 Frame.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
 Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.00371287204, 0, 0.895429969, 0)
+Frame.Position = UDim2.new(0.00745818764, 0, 0.881714225, 0)
 Frame.Size = UDim2.new(0, 229, 0, 73)
 
 UICorner.CornerRadius = UDim.new(1, 0)
@@ -39,7 +40,7 @@ TextBox.Active = true
 TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.BackgroundTransparency = 1.000
 TextBox.BorderSizePixel = 0
-TextBox.Position = UDim2.new(0.283105046, 0, 0.273972601, 0)
+TextBox.Position = UDim2.new(0.27873823, 0, 0.287671238, 0)
 TextBox.Selectable = true
 TextBox.Size = UDim2.new(0, 145, 0, 31)
 TextBox.Font = Enum.Font.Unknown
@@ -49,9 +50,7 @@ TextBox.TextScaled = true
 TextBox.TextSize = 14.000
 TextBox.TextWrapped = true
 
--- Scripts:
-
-local function XWDFHD_fake_script() -- ImageLabel.LocalScript 
+local function VIIIP_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local Players = game:getService("Players")
@@ -64,11 +63,13 @@ local function XWDFHD_fake_script() -- ImageLabel.LocalScript
 	local imageLabel = script.Parent
 	imageLabel.Image = content
 end
-coroutine.wrap(XWDFHD_fake_script)()
-local function GCCOQQP_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(VIIIP_fake_script)()
+local function APXPUN_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.Text = game:GetService("Players").LocalPlayer.Name
 	
 end
-coroutine.wrap(GCCOQQP_fake_script)()
+	coroutine.wrap(APXPUN_fake_script)()
+	wait(1)
+	end
